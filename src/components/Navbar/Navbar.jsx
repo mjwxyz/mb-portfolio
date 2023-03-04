@@ -4,7 +4,7 @@ import '../Navbar/Navbar.css'
 function Navbar(props) {
   return (
     <nav className="nav">
-      <a href="/" className="logo">MJ</a>
+      <a href="/" className="logo">MB</a>
       <ul className="nav-menu">
           <li className="nav-item">
             <a href="/" className="nav-link">
