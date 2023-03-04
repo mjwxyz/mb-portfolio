@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.7rem;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background: rgb(0,0,0);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+    border-bottom: 4px solid #ffc400;
+    transition: all 0.2s ease-out;
+}
+.nav-toggler div {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgray;
+}
